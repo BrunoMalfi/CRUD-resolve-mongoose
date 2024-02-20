@@ -22,7 +22,7 @@ module.exports = {
         },
       },
     },
-    "/create": {
+    '/create': {
       post: {
         tags: {
           Tasks: "Create a task",
@@ -50,7 +50,7 @@ module.exports = {
         },
       },
     },
-    "/id/{_id}": {
+    '/id/{_id}': {
       put: {
         tags: {
           Tasks: "Update a task",
@@ -102,6 +102,6 @@ module.exports = {
           500: { description: "Server error" },
         },
       },
-    },
+    }
   },
-};
+}

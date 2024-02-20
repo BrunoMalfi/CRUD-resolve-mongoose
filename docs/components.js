@@ -40,7 +40,7 @@ module.exports = {
         type: "objectId",
         description: "An id of a task",
         example: "6201064b0028de7866e2b2c4",
-      },
+      }
     },
-  },
-};
+  }
+}
