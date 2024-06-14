@@ -18,6 +18,4 @@ app.use('/api-docs', swaggerUI.serve, swaggerUI.setup(docs))
 
 dbConnection()
 
-app.listen(PORT, () => {
-  console.log(`Express está escuchando en el puerto http://localhost:${PORT}`)
-})
+app.listen(PORT, () => console.log(`Server listening on port ${PORT}`));
